@@ -108,3 +108,28 @@ p {
   font-weight: 300;
   line-height: 18px;
 }
+
+#review {
+  background-image: url('../img/food_review.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  padding-top: 6%;
+  margin-top: 9%;
+}
+
+.review-background {
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 4px;
+  text-align: center;
+}
+
+#review h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 54px;
+}
+
+.review-text {
+  color: #fff;
+}
