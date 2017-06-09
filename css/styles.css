@@ -1,3 +1,6 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display:900|Raleway:300,400,700');
+
 /*Globals*/
 .orange-text {
   color: #f8512f;
@@ -9,6 +12,10 @@
 
 .text-shadow {
   text-shadow: 2px 2px #333;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
 }
 
 /* Header Styles */
@@ -69,4 +76,35 @@
 .btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open>.dropdown-toggle.btn-warning {
   background-color: #d34326;
   border-color: #d34326;
+}
+
+/* Our Story Section */
+
+#story {
+  padding: 5%;
+}
+
+#story h1.orange-text {
+  font-family: 'Lobster', cursive;
+  font-size: 64px;
+  margin-bottom: 0px;
+  margin-top: 12%;
+}
+
+#story h1.orange-text~p {
+  font-weight: 600;
+  font-size: 1.4em;
+}
+
+.year-text {
+  position: absolute;
+  color: rgba(0, 0, 0, .1);
+  font-size: 10em;
+  font-family: 'Playfair Display', cursive;
+  z-index: 0;
+}
+
+.year-text~p {
+  font-weight: 300;
+  line-height: 18px;
 }
