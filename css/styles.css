@@ -143,7 +143,7 @@ p {
 }
 
 #menu .nav-tabs>li>a.orange-text:hover {
-  background-color: rgba(3, 3, 3, .5);
+  background-color: rgba(0, 0, 0, .5);
   border: none;
   color: #f8512f;
 }
