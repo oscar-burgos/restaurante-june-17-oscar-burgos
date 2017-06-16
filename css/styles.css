@@ -133,3 +133,28 @@ p {
 .review-text {
   color: #fff;
 }
+
+/* Menu Styles */
+
+#menu {
+  min-height: 600px;
+  background-image: url('../img/black_linen.png');
+  padding: 5% 0;
+}
+
+#menu .nav-tabs>li>a.orange-text:hover {
+  background-color: rgba(0, 0, 0, .5);
+  border: none;
+  color: #f8512f;
+}
+
+.food {
+  background-color: #fff;
+  padding: 15px;
+}
+
+.menu-title {
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  font-size: 5em;
+}
